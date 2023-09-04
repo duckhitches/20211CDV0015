@@ -35,3 +35,44 @@ error: remote origin already exists.
 C:\Users\admin\Desktop\20211CDV0015>git branch -M main
 
 C:\Users\admin\Desktop\20211CDV0015>git push -u origin main
+
+
+
+--------------------------------------------------------------
+
+
+C:\Users\admin\Desktop\20211CDV0015>git add steps.txt
+
+C:\Users\admin\Desktop\20211CDV0015>git commit -m "steps for github"
+[main 07bae05] steps for github
+ 1 file changed, 37 insertions(+)
+ create mode 100644 steps.txt
+
+C:\Users\admin\Desktop\20211CDV0015>git remote add origin https://github.com/duckhitches/20211CDV0015.git
+error: remote origin already exists.
+
+C:\Users\admin\Desktop\20211CDV0015>git branch -M main
+
+C:\Users\admin\Desktop\20211CDV0015>git log
+commit 07bae05615d547f33980a4b4d78399a06a133c70 (HEAD -> main)
+Author: duckhitches <shettennavareshan@gmail.com>
+Date:   Mon Sep 4 13:45:36 2023 +0530
+
+    steps for github
+
+commit 035496c3c8b35773b2fadbc07b1004dbdad78e9a (origin/main)
+Author: duckhitches <shettennavareshan@gmail.com>
+Date:   Mon Sep 4 12:44:18 2023 +0530
+
+    first commit
+
+C:\Users\admin\Desktop\20211CDV0015>git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 815 bytes | 815.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/duckhitches/20211CDV0015.git
+   035496c..07bae05  main -> main
+branch 'main' set up to track 'origin/main'.
