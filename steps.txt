@@ -1,0 +1,37 @@
+Microsoft Windows [Version 10.0.19045.3324]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\admin> cd C:\Users\admin\Desktop\20211CDV0015
+
+C:\Users\admin\Desktop\20211CDV0015>git init
+Reinitialized existing Git repository in C:/Users/admin/Desktop/20211CDV0015/.git/
+
+C:\Users\admin\Desktop\20211CDV0015>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+C:\Users\admin\Desktop\20211CDV0015>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\admin\Desktop\20211CDV0015>git add demo.txt
+
+C:\Users\admin\Desktop\20211CDV0015>git commit -m "first commit"
+[main (root-commit) 035496c] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 demo.txt
+
+C:\Users\admin\Desktop\20211CDV0015>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\admin\Desktop\20211CDV0015>git remote add origin https://github.com/duckhitches/20211CDV0015.git
+error: remote origin already exists.
+
+C:\Users\admin\Desktop\20211CDV0015>git branch -M main
+
+C:\Users\admin\Desktop\20211CDV0015>git push -u origin main
