@@ -1,2 +1,48 @@
 yoooooo
 its about creating new branch and ediditing it 
+C:\Users\admin\Desktop\20211CDV0015>cd C:\Users\admin\Desktop\20211CDV0015
+
+C:\Users\admin\Desktop\20211CDV0015>git init
+Reinitialized existing Git repository in C:/Users/admin/Desktop/20211CDV0015/.git/
+
+C:\Users\admin\Desktop\20211CDV0015>git add demo2.txt
+
+C:\Users\admin\Desktop\20211CDV0015>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\admin\Desktop\20211CDV0015>git commit -m "my first new branch "
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\admin\Desktop\20211CDV0015>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\admin\Desktop\20211CDV0015>git branch feature1
+
+C:\Users\admin\Desktop\20211CDV0015>git checkout feature1
+Switched to branch 'feature1'
+
+C:\Users\admin\Desktop\20211CDV0015>git push origin feature1
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (9/9), 1.30 KiB | 442.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'feature1' on GitHub by visiting:
+remote:      https://github.com/duckhitches/20211CDV0015/pull/new/feature1
+remote:
+To https://github.com/duckhitches/20211CDV0015.git
+ * [new branch]      feature1 -> feature1
